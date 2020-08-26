@@ -10,5 +10,5 @@ else:
 
 for i in range(0,n):
     X,y = make_regression(10000,n_features=10)
-    df = pd.Dataframe(X)
+    df = pd.DataFrame(X)
     df.to_csv("data.csv", mode='a')
